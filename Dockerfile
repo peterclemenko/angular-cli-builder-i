@@ -14,7 +14,9 @@ WORKDIR /usr/src/workspace
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
-RUN npm install -g @angular/cli @nestjs/schematics @angular-devkit/schematics-cli @nestjs/cli @ngrx/schematics --unsafe
+RUN npm install -g @angular/cli @nestjs/schematics @angular/material @angular/cdk @angular-devkit/schematics-cli @nestjs/cli @ngrx/schematics --unsafe
+
+EXPOSE 3000 4200
 
 # start app
 ENTRYPOINT [ "/bin/bash" ]
