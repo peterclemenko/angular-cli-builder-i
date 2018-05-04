@@ -1,8 +1,9 @@
 {
-  "name": "navrie",
+  "name": "angular-gui-builder",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    ".": "sh .angular-gui/.runner.sh",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
