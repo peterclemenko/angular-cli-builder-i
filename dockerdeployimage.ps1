@@ -1,4 +1,4 @@
-$IMAGEID = "494b51fcd7b8"
+$IMAGEID = "0bfb07f39fcc"
 $imageFileName = "angular-cli-builder-i"
 $tag = "latest"
 
